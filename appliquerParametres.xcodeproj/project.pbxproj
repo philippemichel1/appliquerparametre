@@ -56,11 +56,10 @@
 		37958377297C0C3D00882270 /* appliquerParametres */ = {
 			isa = PBXGroup;
 			children = (
+				37EA3141297DCD6A002283A7 /* View */,
 				37EA313F297DCA9A002283A7 /* Info.plist */,
+				37EA3142297DCD87002283A7 /* Model */,
 				37958378297C0C3D00882270 /* appliquerParametresApp.swift */,
-				3795837A297C0C3D00882270 /* ContentView.swift */,
-				37958388297C0ED400882270 /* VueParametres.swift */,
-				3795838A297C16ED00882270 /* Parametres.swift */,
 				3795837C297C0C3E00882270 /* Assets.xcassets */,
 				3795837E297C0C3E00882270 /* Preview Content */,
 			);
@@ -73,6 +72,23 @@
 				3795837F297C0C3E00882270 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37EA3141297DCD6A002283A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3795837A297C0C3D00882270 /* ContentView.swift */,
+				37958388297C0ED400882270 /* VueParametres.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37EA3142297DCD87002283A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3795838A297C16ED00882270 /* Parametres.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
